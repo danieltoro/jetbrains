@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
       <mapping ext="javascript" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
