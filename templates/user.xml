@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="myroute" value="/*&#10;* @route        $END$&#10;* @description  $END$&#10;* @access       $END$&#10;* */" description="Routes comment description" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
