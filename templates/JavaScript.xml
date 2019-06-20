@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="clog" value="console.log(&quot;\n\n--------------------------------&quot;);&#10;console.log('L$LINE$ $MYSTRING$ ===', $MYVAR$);$END$&#10;console.log(&quot;--------------------------------\n\n&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="LINE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MYSTRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MYVAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
