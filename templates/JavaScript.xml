@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="clog" value="console.log(&quot;\n\n--------------------------------&quot;);&#10;console.log('$MYSTRING$: ', $MYVAR$);$END$&#10;console.log(&quot;--------------------------------\n\n&quot;);" description="" toReformat="true" toShortenFQNames="true">
+  <template name="clog" value="console.log(&quot;\n\n--------------------------------&quot;);&#10;console.log(&quot;$MYSTRING$: &quot;, $MYVAR$);$END$&#10;console.log(&quot;--------------------------------\n\n&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <variable name="MYSTRING" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MYVAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
